@@ -1,3 +1,8 @@
+#body1 {
+     background:green;
+     font-family:"Times New Roman", Times, serif;
+     font-style:purple;
+}
 table, th, td {
      border: 1px solid black;
  }
