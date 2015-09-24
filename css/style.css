@@ -23,9 +23,8 @@ table, th, td {
                 width:40%;
               
             }
-            
-                 
-             
-tr:nth-child(even) {background: yellow}
+            ul:nth-child(n){
+                 color: blue;
+            }
      
 
