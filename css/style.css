@@ -29,6 +29,15 @@ li:nth-child(n){
 a:hover {
      color: orange;
 }
+.span1 {
+     font-family: "Times New Roman", Times, serif;
+}
+.span2 {
+     color:grey;
+}
+.span3 {
+     font-size:28px;
+}
 
      
 
