@@ -21,11 +21,11 @@ table, th, td {
               
             }
             body {
-    color blue;
-    background-color: yellow;
-    font-family: "Times New Roman", Times, serif;
-    
-} 
+               color blue;
+               background-color: yellow;
+               font-family: "Times New Roman", Times, serif;
+                 
+            } 
 tr:nth-child(even) {background: yellow}
      
 
