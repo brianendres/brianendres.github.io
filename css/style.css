@@ -6,11 +6,11 @@ body {
 table, th, td {
      border: 1px solid black;
  }
-            .container{
+.container{
             width: 50%;
             margin: 0 auto;
             }
-            .left {
+.left {
                 float:left;
                 width:40%;
             
@@ -18,13 +18,16 @@ table, th, td {
             p:first-child{
                  color: red;
             }
-            .right {
+.right {
                 float:left;
                 width:40%;
               
             }
-            li:nth-child(n){
+li:nth-child(n){
                  color: blue;
             }
+a:hover {
+     color: orange;
+}
      
 
