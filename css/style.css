@@ -27,5 +27,5 @@ table, th, td {
     
 } 
 tr:nth-child(even) {background: yellow}
-p:first-child {green}      
+     
 
