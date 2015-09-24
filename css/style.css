@@ -1,7 +1,7 @@
 body {
-     background:green;
+     background: green;
      font-family:"Times New Roman", Times, serif;
-     font-style:purple;
+     font-style: purple;
 }
 table, th, td {
      border: 1px solid black;
