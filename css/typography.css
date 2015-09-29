@@ -1,7 +1,7 @@
 body{
   font-size:14px;
   line-height:1.40em;
-  font-family: Geneva, Geneva, sans-serif;
+  font-family: Geneva, Tahoma, sans-serif;
   font-color: #000000;
   background-color: #CFCFCF;
   width:700px;
@@ -9,6 +9,6 @@ body{
 }
 p{
   text-indent:20px;
-  font-family:Verdana, Segoe, sans-serif, Tahoma;
+  font-family:sans-serif, Segoe, Geneva, Tahoma;
   letter-spacing: 2px;
 }
