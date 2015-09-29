@@ -4,6 +4,8 @@ body{
   font-family: Geneva, Geneva, sans-serif;
   font-color: #000000;
   background-color: #CFCFCF;
+  width:500px;
+  margin:0 auto;
 }
 p{
   text-indent:20px;
