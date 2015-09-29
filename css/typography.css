@@ -1,13 +1,13 @@
 body{
   font-size:16px;
   line-height:1.45em;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Geneva, Geneva, sans-serif;
   font-color: #000000;
   background-color: #CFCFCF;
 }
 p{
   text-indent:20px;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family:Verdana, Segoe, sans-serif, Tahoma;
   width:900px;
   letter-spacing: 3px;
 }
