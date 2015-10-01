@@ -17,4 +17,7 @@ table, tr, td, th {
     color: #000000;
     font-family: "Times New Roman";
 }
+table, th, td {
+    border: 1px solid black;
+ } 
 
