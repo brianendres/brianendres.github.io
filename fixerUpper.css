@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     font-family: "Georgia", serif;
     margin-right:500px;
+    line-height: 1.25px;
 }
 
 table, tr, td, th {
