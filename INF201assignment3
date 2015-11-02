@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "assignment3.css">
+        <title>Assignment 3</title>
+    </head>
+    
+    <body>
+        
+        <div class = "main">
+            <div class = "banner">
+                <ul class = "nav">
+                    <a href = "https://www.google.com/"><li>Assignment 1</li></a>
+                    <a href="https://www.google.com"><li>Lab 13</li></a>
+                    <a href="https://www.google.com"><li>Lab 12</li></a>
+                    <a href="https://www.google.com"><li>Lab 11</li></a>
+                    <a href="https://www.google.com"><li>Lab 10</li></a>
+                    <a href="https://www.google.com"><li>Lab 9</li></a>
+                    <a href="https://www.google.com"><li>Lab 8</li></a>
+                    <a href="https://www.google.com"><li>Lab 7</li></a>
+                    </ul>
+            </div>
+            
+            <div class = "pics">
+                
+                <img src="http://2vo4ws4ddqvg3hd4ih11ftl3.wpengine.netdna-cdn.com/wp-content/uploads/2015/08/Kennebunkport-Maine-Fall-Foliage-Road-Trip.jpg" alt = "fall">
+                
+                <img src="http://alloveralbany.com/images/ualbany_entrance.jpg" alt="albany">
+            </div>
+            <div class="sidebar">
+                <img src="http://vignette1.wikia.nocookie.net/warthunder/images/5/5f/Placeholder.jpg/revision/latest?cb=20140819130035" alt="alt">
+                <p><a href="http://www.w3schools.com/">W3 School</a></p>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div">HTML div</a></p>
+                <p><a href="http://www.w3schools.com/tags/tag_a.asp">a tag</a></p>
+                <p><a href="http://www.w3schools.com/html/html_images.asp">HTML img</a></p>
+                <p><a href="http://www.w3schools.com/html/html_tables.asp">HTML table</a></p>
+                <p><a href= "http://www.w3schools.com/css/css_inline-block.asp">CSS block</a></p>
+                <p><a href="http://www.w3schools.com/css/css_boxmodel.asp">HTML Box Model</a></p>
+                <p><a href = "http://www.w3schools.com/css/css_float.asp">CSS Float</a></p>
+                <p><a href="http://www.w3schools.com/css/css_positioning.asp">CSS position</a></p>
+            
+            </div>
+            
+            
+            <div class= "info1">
+                <h3>HTML</h3>
+                <h2>div</h2>
+                <p>-The div element is used as a divider to separate peices of content from eachother.</p>
+                <p>-It is important becuase it allows you to choose which part of a page a certain element appears on. Also it gives you a container to hold elements</p>
+                <img src="http://www.hackerchick.com/wp-content/uploads/2010/05/201005WordPressDesignDivLayout.gif" alt="div">
+            </div>
+            
+            
+            <div class = "info2">
+                <p>-The paragraph element in html is used to hold text, or a paragraph of text</p>
+                <p>-It is important becuase it allows you to add peices of text to your website</p>
+                <img src="http://jrue.github.io/assets/images/tutorial_images/html-tags.jpg" alt= "ptag">
+            </div>
+            
+            <div class="info3">
+                <h3>CSS</h3>
+                <p>-A block element starts a new line and takes up all the availible width.</p>
+                <p>-An inline element does not start a new line and only takes up enough space to fit the content, or a set width.</p>
+                <p>-The display property allows you to change inline elements to block</p>
+            </div>
+            <div class="info4">
+                <h2>Box Model</h2>
+                <p>-The box model system allows you to determine how your content is placed inside a container, and how things around it will be moved</p>
+                <p>-Padding allows you to set the distance between your content and the containter around it</p>
+                <p>-Margin allows you to set the distance between your container and the things outside of it</p>
+                <p>-Border allows you to set a border style, width, and color that goes along the edge of your container</p>
+                <img src = "http://www.w3schools.com/css/box-model.gif"
+                     alt= "box">
+            </div>
+            <div class="info5">
+                <h2>Float/Clear</h2>
+                <p>-Float allows you to move an element to the left or right side of the page</p>
+                <p>-Clear allows you to decide where the element will be placed around other elements</p>
+            </div>
+            <div class= "footer">
+                <p>All pictures are creative commons an don't need to be sourced.</p>
+                <p>INF201 assignment 3 By Brian Endres</p>
+            </div>
+        </div>
+    </body>
+</html>
