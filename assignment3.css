@@ -1,0 +1,169 @@
+body {
+    background-color: bisque;
+}
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    height: 50px;
+    width:100%;
+    background-color: purple;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    display: inline-block;
+    border: 1px solid gold;
+    height: 36px;
+    width: 114px;
+    text-align: center;
+    padding-top: 13px;
+}
+.nav{
+    height: 100px;
+
+}
+img {
+    width: 450px;
+    height: 300px;
+}
+.pics {
+    width: 100%;
+    margin: 10px 0px 10px 50px ;
+    
+}
+.info1 {
+    width:75%;
+    float:right;
+    background-color: beige;
+    border: 1px solid black;
+
+} 
+.info1 h2{
+    float: left;
+    padding:15px;
+}
+.info1 h3{
+    margin:0px;
+    background-color: purple;
+}
+.info1 img{
+    padding:15px;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.info1 p{
+    padding:15px;
+    width: 65%;
+    float: left;
+}
+.info2 {
+    float:right;
+    clear:right;
+    width:75%;
+    background-color: beige;
+    border: 1px solid black;
+
+}
+.info2 p{
+    padding:15px;
+    width: 65%;
+    float: left;
+}
+.info2 img {
+    padding:15px;
+    float:right;
+    width:40%;
+}
+.info3 {
+    width: 75%;
+    float:right;
+    clear:right;
+    background-color: beige;
+    border: 1px solid black;
+}
+.info3 h3{
+    margin:0px;
+    background-color: purple;
+}
+.info3 p {
+    padding:15px;
+    width: 65%;
+    float:left;
+
+}
+.info4 img {
+    padding:15px;
+    float:right;
+    width: 20%;
+    height: 20%;
+}
+.info4 h2{
+    padding:15px;
+    float:left;
+    
+}
+.info4 p{
+    padding:15px;
+    width:65%;
+}
+.info4 {
+    width:75%;
+    float:right;
+    clear:right;
+    background-color: beige;
+    border: 1px solid black;
+}
+.info5 p {
+    width:65%;
+    padding:15px;
+}
+.info5 h2{
+    padding:15px;
+    float:left;
+}
+.info5 {
+    width: 75%;
+    float:right;
+    clear:right;
+    background-color: beige;
+    border: 1px solid black;
+
+}
+.sidebar {
+    float:left;
+    clear:left;
+    width:20%;
+}
+.sidebar p {
+    margin: 5px;
+    padding: 10px 2px 10px 2px;
+    text-align: center;
+    display:block;
+    border: 1px solid black;
+    background-color: purple;
+    color:whitesmoke;
+}
+.sidebar img {
+    width: 98%;
+    height: 85%;
+}
+a:hover{
+    color:gold;
+    background-color: blue;
+}
+a:link{
+    color: antiquewhite;
+}
+a:visited {
+    color:antiquewhite;
+}
+.footer {
+    background-color: purple;
+    clear:both;
+    width: 100%;
+    text-align: center;
+}
