@@ -46,6 +46,7 @@ img {
     padding:15px;
 }
 .info1 h3{
+    color:gold;
     margin:0px;
     background-color: purple;
 }
@@ -86,8 +87,13 @@ img {
     border: 1px solid black;
 }
 .info3 h3{
+    color: gold;
     margin:0px;
     background-color: purple;
+}
+info3 h2{
+    float:left;
+    padding-left:15px;
 }
 .info3 p {
     padding:15px;
@@ -122,7 +128,7 @@ img {
     padding:15px;
 }
 .info5 h2{
-    padding:15px;
+    padding-left:15px;
     float:left;
 }
 .info5 {
