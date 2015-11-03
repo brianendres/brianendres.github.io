@@ -1,93 +1,94 @@
 /*Brian's Code*/
 .div1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-bottom: none;
     text-align: center;
-    background-color: #5C73A9;
-    width:100%;
+    background-color: #B7D1DA;
+    width:1000px;
     height: 30%;
 }
+.about {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
 .div2 {
-    width:100%;
-    float:left;
-    padding-bottom:50px;
-    background-color: #FDBA7C;
-    height:auto;
+    border-bottom:none;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+    width:1000px;
+    background-color: #B7D1DA;
     
 }
 .div2 h3 {
     text-align: center;
 }
 .div3 {
-    clear:left;
-    float:right;
-    width:50%;
-    background-color: #FDE57C;
-    height:100%;
-    padding-bottom: 197px;
+    border-bottom: none;
+    border:1px solid black;
+    width:1000px;
+    background-color: #B7D1DA;
+    margin-left: auto;
+    margin-right: auto;
+    height:;
 }
 }
 .div3 ul{
     text-align: center;
     list-style-type: none;
 }
-}
-ul {
-    margin-left: auto;
-    margin-right: auto;
-}
-.table tr td {
+.div3 table tr td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
     
 
 }
-.table {
-    width: 50%;
-    float:left;
-    clear: left;  
-    background-color: #FDE57C;
-}
-table {
-    margin-left: auto;
-    margin-right: auto;
+.div3 table th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
 
 }
 .div4 {
-    float:left; 
-    clear:left;
-    background-color: #5C73A9;
-    width:100%;
-    height:100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border-bottom: none;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B7D1DA;
+    width:1000px;
+    height: 80px;
+    padding-top: 1px;
 }
-.div4 p{
-    width:100%;
-    display:inline;
-    padding: 120px;
+.div4 ul li{
+    float:left;
+    background-color: #E2E8DD;
+    padding-left:92px;
+    padding-right: 92px;
+    list-style: none;
+    display: inline;
+    border: 1px solid black;
+}
+.footer {
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    text-align: center;
+    background-color: #95A3A4 ;
 }
 @media (max-width: 1000px) {
-    .div4 p{
-        display: inline;
-        padding: inherit;
-        margin: auto;
+    .div1{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media (max-width: 869px){
-    .div4 p{
-        display: block;
-        padding: inherit;
-    }
-}
-
 @media (max-width: 720px){
-    .div4 p{
-        display:block;
-    }
-    .div4{
-        margin-right: auto;
-        margin-left: auto;
-         width: 100%;
-    }
-}
-    
+
