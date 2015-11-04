@@ -63,9 +63,10 @@
     background-color: #B7D1DA;
     width:1000px;
     height: 80px;
-    padding-top: 1px;
+    
 }
 .div4 ul li{
+    height: 50px;
     float:left;
     background-color: #E2E8DD;
     padding-left:92px;
@@ -73,6 +74,10 @@
     list-style: none;
     display: inline;
     border: 1px solid black;
+}
+.div4 li {
+    padding-bottom: auto;
+    padding-top: auto;
 }
 .footer {
     border:1px solid black;
@@ -84,11 +89,56 @@
 }
 @media (max-width: 1000px) {
     .div1{
-        width: 75%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div2{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div4 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div4 ul li {
+        padding-left:60px;
+        padding-right: 60px;
+    }
+    .div3{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer {
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 }
-@media (max-width: 869px){
-@media (max-width: 720px){
+@media (max-width: 916px){
 
+    .div4 ul li {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:40px;
+        padding-right: 40px;
+    }
+    
+}
+@media (max-width: 720px){
+     .div4 ul li {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:30px;
+        padding-right: 30px;
+    }
+    
+}
