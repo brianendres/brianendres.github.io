@@ -13,9 +13,8 @@
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    /Vera/
     font-family: Arial, Helvetica, sans-serif; 
-    line-height: 1.45; /Vera/
+    line-height: 1.45;
         
 }
 .div2 {
@@ -65,9 +64,8 @@
     margin-right: auto;
     background-color: #B7D1DA;
     width:1000px;
-    height: 80px;
-    height: 60px; /Vera/
-    padding-top: 15px; /Vera/
+    height: 60px;
+    padding-top: 15px;
     
 }
 .div4 ul li{
