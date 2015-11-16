@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment4</title>
+        <link rel="stylesheet" type="text/css" href="assignment4.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Item Name</td>
+                <td>Description</td>
+                <td>Unit Price $</td>
+                <td>Quantity</td>
+            </tr>
+            <tr>
+                <td>Pants</td>
+                <td>clothing</td>
+                <td>20.00</td>
+                <td id="quantity1"><input id="i1" type="text" value= "0" name="name"></td>
+            </tr>
+            <tr>
+                <td>Shirt</td>
+                <td>clothing</td>
+                <td>10.00</td>
+                <td id="quantity2"><input id="i2" type="text" value= "0" name="name"></td>
+            </tr>
+        </table>
+        <button onclick="getQuantity()" type="button">Calculate Subtotal</button>
+        <p id="out"></p>
+        <p>Blog 11/18/2015</p>
+        <button id="button" onclick="display()" type="button">Display Content</button>
+        <p id ="content" style="display:none;">Today I walked my dog and went to the gym.</p>
+        <script>
+            function getQuantity() {
+                var x = document.getElementById("i1").value;
+                var y = document.getElementById("i2").value;
+                var pantsPrice = x*20;
+                var shirtPrice = y*10;
+                var subTotal = pantsPrice + shirtPrice;
+            document.getElementById("out").innerHTML= "Your sub total is "+subTotal;
+            }
+            function display() {
+                document.getElementById("button").style.display="none";
+                document.getElementById("content").style.display="block";
+            }
+        </script>
+    </body>
+</html>
